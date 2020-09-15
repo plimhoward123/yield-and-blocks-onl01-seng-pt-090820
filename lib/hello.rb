@@ -1,8 +1,7 @@
 def hello_t(arry)
   i = 0
-
   while i < arry.length
-    yield arry[i]
+    yield (arry[i])
     i+=1
   end
 end
